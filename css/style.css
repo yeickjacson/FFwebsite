@@ -444,7 +444,7 @@ ol {
 }
 
 .hero__items {
-	height: 960px;
+	height: 100vh;
 	padding: 0 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1191,6 +1191,7 @@ ol {
 
 .project__item img {
 	min-width: 100%;
+	
 	margin-bottom: 26px;
 }
 
@@ -1493,7 +1494,7 @@ ol {
 
 .about {
 	padding-top: 120px;
-	padding-bottom: 165px;
+	/* padding-bottom: 165px; */
 	overflow: hidden;
 }
 
@@ -1559,7 +1560,7 @@ ol {
 -----------------------*/
 
 .services {
-	padding-top: 120px;
+	/* padding-top: 120px;	 */
 	padding-bottom: 90px;
 }
 
