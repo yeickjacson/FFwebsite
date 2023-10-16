@@ -357,7 +357,7 @@ ol {
 	left: 0;
 	top: 62px;
 	width: 140px;
-	background: #ffffff;
+	background: #000000c0;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -373,12 +373,19 @@ ol {
 	margin-right: 0;
 }
 
+.header__menu ul li .dropdown li:hover{
+	background-color: #e2e2e2;
+}
+
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #111111;
-	font-weight: 400;
+	color: #ffffff;
+	font-weight: 500;
 	padding: 5px 20px;
 	text-transform: capitalize;
+}
+.header__menu ul li .dropdown li a:hover{
+	color: rgb(0, 0, 0);
 }
 
 .header__menu ul li .dropdown li a:after {
@@ -1554,6 +1561,7 @@ ol {
 .about__page__services__text {
 	margin-bottom: 30px;
 }
+
 
 /*---------------------
   Services
