@@ -1219,6 +1219,12 @@ ol {
 .project-details img {
 	margin-bottom: 30px;
 	min-width: 100%;
+} 
+
+.project-details video{
+	margin-bottom: 30px;
+	min-width: 100%;
+	width: 60%;
 }
 
 .project__sidebar__about {
